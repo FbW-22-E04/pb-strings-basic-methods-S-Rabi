@@ -7,8 +7,9 @@ const helloStr = "Hello World";
 console.log(helloStr.toUpperCase());
 
 // 3:
-const earthlingStr = "Hello Earthling";
-console.log(earthlingStr.toLowerCase());
+const earthStr = "Hello Earthling";
+const earthlingStr = earthStr.toLowerCase();
+console.log(earthlingStr);
 
 // 4:
 const jsStr = "JavaScript";
@@ -59,7 +60,7 @@ console.log(foxStr.charAt(0).toUpperCase() + foxStr.slice(1));
 // const str2 = str.charAt(0, 3);
 // console.log(str2);
 
-let text = "Hello world, welcome to the universe.";
-console.log(text.indexOf("i"));
+// let text = "Hello world, welcome to the universe.";
+// console.log(text.indexOf("i"));
 
 // shold solve later"
