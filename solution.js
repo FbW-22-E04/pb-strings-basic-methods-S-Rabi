@@ -7,9 +7,8 @@ const helloStr = "Hello World";
 console.log(helloStr.toUpperCase());
 
 // 3:
-const earthStr = "Hello Earthling";
-const earthlingStr = earthStr.toLowerCase();
-console.log(earthlingStr);
+const earthlingsStr = "Hello Earthling";
+console.log(earthlingsStr.toLowerCase());
 
 // 4:
 const jsStr = "JavaScript";
@@ -38,19 +37,25 @@ console.log(`${lastLetter}${middleLetters}${firstLetter}`);
 // 9:
 const firstName = "Maria";
 const city = "Berlin";
-
 console.log(
-  "My name is" +
-    " " +
-    firstName +
-    "." +
-    " " +
-    "I am linving in" +
-    " " +
-    city +
-    " " +
-    "and I am a teacher"
+  "My name is",
+  firstName,
+  "I am living in",
+  city,
+  "and I am a teacher"
 );
+// console.log(
+//   "My name is" +
+//     " " +
+//     firstName +
+//     "." +
+//     " " +
+//     "I am linving in" +
+//     " " +
+//     city +
+//     " " +
+//     "and I am a teacher"
+// );
 // 10:
 
 const foxStr = "the quick brown fox";
